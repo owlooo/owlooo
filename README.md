@@ -1,9 +1,21 @@
 # 이도훈
 
-안녕하세요, 이도훈입니다. 해양컴퓨터공학을 전공했고, 클라우드·인프라 직무를 준비하고 있습니다.
+안녕하세요, 이도훈입니다. 해양컴퓨터공학을 전공하고 클라우드·인프라 직무를 준비하고 있습니다.
+서비스를 만드는 것부터 안정적으로 배포하고 운영하는 것까지 책임질 수 있는 개발자가 되고 싶습니다.
 
-팀 프로젝트에서 백엔드 개발과 서비스 통합, 배포 환경 구성을 맡았습니다.
-AI 매장 운영 서비스는 GCP에, 도서 관리 서비스는 AWS EKS에 배포했습니다.
+## 교육
+
+| 과정 | 기간 | 배운 내용 |
+|---|---|---|
+| KT 에이블스쿨 9기 AI 트랙 | 2026.03.31~09.03 | Python·데이터 분석·ML/DL·LLM, 웹 서비스 개발·클라우드 배포 |
+| 광주인공지능사관학교 6기 자연어처리A | 2025.06.02~12.12 | 머신러닝·딥러닝·자연어처리·Transformer·LLM 활용 |
+| 광주·전남 데이터센터 전문인력 양성(취업연계) | 2025.09.15~09.26 | 데이터센터 운영·네트워크·클라우드, 가상화·Docker·AWS 실습 |
+
+## 프로젝트에서 사용한 기술
+
+- **백엔드:** Python · FastAPI · PostgreSQL
+- **클라우드·배포:** AWS EKS/ECR · GCP Compute Engine · Docker · Kubernetes · GitHub Actions · CodeBuild
+- **프런트엔드:** TypeScript · React · Next.js
 
 ## 대표 프로젝트
 
@@ -25,9 +37,5 @@ Pod가 늘어날 때 DB 연결도 함께 늘어나는 점을 고려해 HPA 상�
 ## 개인 서버
 Docker 기반 서비스와 모니터링·백업 환경을 구성해 왔습니다.
 서비스에 접속되지 않을 때 앱·컨테이너·프록시·DNS를 나눠 확인하고, 복구 절차를 기록했습니다.
-
-## 프로젝트에서 사용한 기술
-- **배포:** Docker · Kubernetes/EKS · ECR · CodeBuild · GCP Compute Engine · GitHub Actions
-- **개발:** Python · FastAPI · PostgreSQL · React/Next.js · TypeScript
 
 추가 프로젝트: [CStudy](https://github.com/aischool-cstudy/aiplus-cstudy) — 학습·실습 화면, AI 실행 지표, DB 저장 오류 수정.
